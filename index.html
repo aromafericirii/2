@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AROMA FERICIRII</title>
+    <link rel="stylesheet" href="style tlf.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <img src="logo.png" alt="Logo Cafenea" class="logo"> <!-- Logo -->
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Buton Burger -->
+            <ul class="nav-links">
+                <li><a href="#home">Acasă</a></li>
+                <li><a href="#menu">Meniu</a></li>
+                <li><a href="#about">Despre Noi</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="organigrama_noua.png">Organigramă</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- Secțiune Despre NoI -->
+<section id="about">
+    <div class="about-container">
+        <h2>Despre NoI</h2>
+        <p><strong>Cod CAEN 5630 - Baruri și alte activități de servire a băuturilor</strong></p>
+        <p>La <strong>Cafeneaua Aroma Fericirii</strong>, ne mândrim cu o tradiție îndelungată în prepararea celor mai bune cafele. Fondată în anul <strong>2024</strong>, am devenit rapid un loc de întâlnire pentru iubitorii de cafea din întreaga regiune.</p>
+        <p>Suntem dedicați să oferim o experiență premium, având în echipă cei mai buni barista, specializați în prepararea celor mai savuroase băuturi. Fiecare cafea este realizată cu măiestrie, utilizând doar <strong>ingrediente premium</strong> pentru a garanta gustul autentic și rafinat.</p>
+        <p>Îți oferim o gamă largă de băuturi, de la espresso clasic la cappuccino inovativ, toate pregătite cu dragoste și pasiune pentru fiecare client care ne trece pragul.</p>
+        <div class="about-image">
+            <img src="cafenea_noiua.jpeg" alt="Cafenea">
+        </div>
+    </div>
+</section>
+
+<!-- Secțiune Meniu -->
+<section id="menu">
+    <div class="menu-container">
+        <h2>MenIu</h2>
+
+        <div class="menu-content">
+            <div class="menu-column">
+                <h3 class="category">Cafea</h3>
+                <ul class="menu-items">
+                    <li><span class="item-name">Capuccino (001)</span> - 10 lei<br><span class="item-details">espresso, lapte, spuma de lapte</span></li>
+                    <li><span class="item-name">Espresso (002)</span> - 8 lei<br><span class="item-details">cafea macinata, apa</span></li>
+                    <li><span class="item-name">Frappe (003)</span> - 17 lei<br><span class="item-details">cafea instant, gheata, lapte, zahar</span></li>
+                    <li><span class="item-name">Flat White (004)</span> - 16 lei<br><span class="item-details">espresso, lapte</span></li>
+                    <li><span class="item-name">Mocha Latte (005)</span> - 14 lei<br><span class="item-details">espresso, lapte, ciocolata, frisca</span></li>
+                    <li><span class="item-name">Irish Coffee (006)</span> - 17 lei<br><span class="item-details">cafea, whiskey, zahar, frisca</span></li>
+                    <li><span class="item-name">Americano (007)</span> - 10 lei<br><span class="item-details">espresso, apa</span></li>
+                    <li><span class="item-name">Cafea Dalgona (008)</span> - 12 lei<br><span class="item-details">ness spuma, lapte, gheata</span></li>
+                </ul>
+
+                <h3 class="category">Gustări</h3>
+                <ul class="menu-items">
+                    <li><span class="item-name">Croissant (017)</span> - 6 lei<br><span class="item-details">faina, drojdie, zahar, sare, unt, lapte</span></li>
+                    <li><span class="item-name">Fursecuri (018)</span> - 8 lei<br><span class="item-details">fainam, zahar, unt, oua, ciocolata, praf de copr, sare, vanilie</span></li>
+                    <li><span class="item-name">Pain au Chocolate (019)</span> - 7 lei<br><span class="item-details">faina, drojdie, unt, zahar, sare, ciocolata, lapte</span></li>
+                </ul>
+            </div>
+
+            <div class="menu-column">
+                <h3 class="category">Cocktail-uri</h3>
+                <ul class="menu-items">
+                    <li><span class="item-name">Tequila Sunrise (009)</span> - 22 lei<br><span class="item-details">tequila, suc de portocale, grenadina</span></li>
+                    <li><span class="item-name">Blue Lagoon (010)</span> - 22 lei<br><span class="item-details">vodka, blue curacao, limonada</span></li>
+                    <li><span class="item-name">Aperol Spritz (011)</span> - 22 lei<br><span class="item-details">Aperol, prosecco, apa minerala</span></li>
+                    <li><span class="item-name">Margarita (012)</span> - 22 lei<br><span class="item-details">tequila, suc de lime, triple sec</span></li>
+                    <li><span class="item-name">Cosmopolitan (013)</span> - 22 lei<br><span class="item-details">vodka, triple sec, suc de merisoare, suc de lime</span></li>
+                    <li><span class="item-name">Cuba Libre (014)</span> - 15 lei<br><span class="item-details">rom cubanez, lime, Coca Cola</span></li>
+                    <li><span class="item-name">Mojito (015)</span> - 15 lei<br><span class="item-details">rom alb, suc de lamaie, frunze de menta, zahar brun, apa minerala</span></li>
+                    <li><span class="item-name">Pina Colada (016)</span> - 20 lei<br><span class="item-details">rom alb, suc de ananas, crema de cocos, suc de lamaie</span></li>
+                </ul>
+
+                <h3 class="category">Mâncare</h3>
+                <ul class="menu-items">
+                    <li><span class="item-name">Gluten Free Tabouleh (020)</span> - 24 lei<br><span class="item-details">patrunjel, rosii, ceapa rosie, tarate de ovaz, suc de lamaie, ulei de rapita</span></li>
+                    <li><span class="item-name">Bruger (021)</span> - 35 lei<br><span class="item-details">chiftea, rosii, rucola, castraveti murati, salata verde, sos usturoi, sos BBQ, chifla cu spanac si spirulina</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="location-message">Vă așteptăm în locație pentru mai multe!</p>
+        </div>
+    </section>
+
+    <!-- Secțiune Hartă -->
+<section id="map">
+    <div class="map-container">
+        <h2>Ne găseștI aIcI:</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2712.4562784505573!2d26.9095558!3d46.5675586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cafb782c202cb9%3A0x9db3bdc30d9ed1e3!2sStrada%209%20Mai%20104%2C%20Bac%C4%83u%20600600%2C%20Romania!5e0!3m2!1sen!2sro!4v1678969690000!5m2!1sen!2sro" 
+            width="300" 
+            height="200" 
+            style="border: 1px solid #ccc; border-radius: 15px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+<!-- Stiluri pentru secțiunea Hartă -->
+<style>
+    .map-container {
+        text-align: center;
+        padding: 2rem;
+    }
+    .map-container h2 {
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .map-container iframe {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+
+   <!-- Footer -->
+<footer id="footer">
+    <div class="footer-container">
+        <div class="footer-left">
+            <p>&copy; 2024 Aroma FerIcIrII. Toate drepturIle rezervate.</p>
+        </div>
+        <div class="footer-center">
+        <div class="footer-right">
+            <ul>
+                <li><a href="mailto:fearomafericiriibacau@yahoo.ro">fearomaferIcIrIIbacau@yahoo.ro</a></li>
+                <li><a href="tel:+40753881898">+40 753 881 898</a></li>
+                <li><a href="tel:+40 234 510 435">+40 234 510 435</a></li>
+            </ul>
+            <div class="footer-logos">
+                <a href="https://www.anpc.ro" target="_blank">
+                    <img src="anpc-sal.jpg" alt="ANPC Logo">
+                </a>
+                <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN" target="_blank">
+                    <img src="pictogramaSOL.jpg" alt="Solutionarea disputelor online">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
